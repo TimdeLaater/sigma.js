@@ -18,8 +18,8 @@ David Dierckx (2179446)
 
 ## Add your files
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/daviddierckx/pshfhtsvoid.git
-git branch -M main
+git remote add 
+origin https://PSHFHTSVOID@dev.azure.com/PSHFHTSVOID/Project/_git/Project  
 git push -uf origin main
+git push -u origin --all
 ```
