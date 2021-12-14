@@ -1,0 +1,15 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "De app die alle studenten van Avans zullen gebruiken om hun studie in te plannen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://PSHFHTSVOID@dev.azure.com/PSHFHTSVOID/Project/_git/Project"
+  },
+  "author": "",
+  "license": "ISC"
+}
