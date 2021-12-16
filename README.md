@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="void.jpg" width="320" alt="Void Logo" />
+  <img src="PSHFHTSVOID/void.jpg" width="320" alt="Void Logo" />
 </p>
 
 # PSHFHTSVOID
