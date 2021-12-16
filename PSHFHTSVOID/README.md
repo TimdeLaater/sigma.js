@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="void.jpg" width="320" alt="Void Logo" />
+</p>
+
 # PSHFHTSVOID
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
