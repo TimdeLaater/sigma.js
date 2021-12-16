@@ -1,6 +1,6 @@
 
 <p align="center">
- ![](PSHFHTSVOID/void.jpg?raw=true)
+  <img src="./PSHFHTSVOID/void.jpg" width="320" alt="Void Logo" />
 </p>
 
 # PSHFHTSVOID
