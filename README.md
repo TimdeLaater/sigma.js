@@ -1,10 +1,37 @@
+
 <p align="center">
-  <img src="PSHFHTSVOID/void.jpg" width="320" alt="Void Logo" />
+ ![](PSHFHTSVOID/void.jpg?raw=true)
 </p>
 
 # PSHFHTSVOID
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+
+# Avans Curriculum- en Studiekeuzeapp
+
+De app die alle studenten van Avans zullen gebruiken om hun studie in te plannen.
+
+## Groepsleden
+Maurice de Ridder (2168234)
+
+Luuk Bartels (2169707)
+
+Noah Christiaan de Keijzer (2167874)
+
+Dani Heyl (216991)
+
+Rico Schouten (2168235)
+
+David Dierckx (2179446)
+
+
+## Add your files
+```
+git remote add 
+origin https://PSHFHTSVOID@dev.azure.com/PSHFHTSVOID/Project/_git/Project  
+git push -uf origin main
+git push -u origin --all
+```
 
 ## Development server
 
@@ -29,3 +56,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
