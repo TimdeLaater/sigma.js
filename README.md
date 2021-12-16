@@ -5,7 +5,7 @@
 
 # PSHFHTSVOID
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+De app die alle studenten van Avans zullen gebruiken om hun studie in te plannen.
 
 # Avans Curriculum- en Studiekeuzeapp
 
