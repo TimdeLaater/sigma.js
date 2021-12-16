@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="void.jpg" width="320" alt="Void Logo" />
+  <img src="https://opleiding.com/u/avans.png" width="320" alt="Avans Logo" />
 </p>
 
 # PSHFHTSVOID
