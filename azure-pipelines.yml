@@ -23,7 +23,7 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install'
-    workingDir: 'PSHFHTSVOID'
+    workingDir: './'
   
 - task: CopyPublishBuildArtifacts@1  
   displayName: 'Copy Publish Artifact: test'  
@@ -48,6 +48,6 @@ steps:
   displayName: 'firebase publish -m "$(Build.BuildNumber)"'    
   inputs:
     script: 'firebase deploy --token "$(FIREBASE_TOKEN)" -m dist'
-    workingDirectory: 'PSHFHTSVOID'
+    workingDirectory: './'
   
 
