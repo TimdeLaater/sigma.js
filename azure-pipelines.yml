@@ -47,7 +47,7 @@ steps:
 - task: CmdLine@2
   displayName: 'firebase publish -m "$(Build.BuildNumber)"'    
   inputs:
-    script: 'firebase deploy --token "$(FIREBASE_TOKEN)" -m '
+    script: 'firebase deploy --token "$(FIREBASE_TOKEN)" '
     workingDirectory: './'
   
 
