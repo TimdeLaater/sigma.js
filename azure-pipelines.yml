@@ -24,11 +24,15 @@ steps:
   inputs:
     command: 'install'
     workingDir: './'
+
 - task: SonarQubePrepare@5
   inputs:
     SonarQube: 'PSHFHTSVOID SonarQube Integration'
     scannerMode: 'CLI'
-
+    configMode: 'manual'
+    cliProjectKey: 'Project_Project'
+    cliProjectName: 'Project'
+    cliSources: '.'
 - task: SonarQubeAnalyze@5
 
 - task: SonarQubePublish@5
