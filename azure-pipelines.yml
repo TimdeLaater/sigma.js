@@ -7,7 +7,7 @@ trigger:
 - master  
   
 pool:  
-  name: 'Self-Hosted'
+  name: 'Hosted Agent'
   
 steps:  
 - task: NodeTool@0  
