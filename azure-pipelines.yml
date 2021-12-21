@@ -47,9 +47,7 @@ steps:
 - task: CmdLine@2
   displayName: 'firebase publish -m "$(Build.BuildNumber)"'    
   inputs:
-    script: | 
-        ng build
-        'firebase deploy --token "$(FIREBASE_TOKEN)" -m "dist"'
+    script: 'firebase deploy --token "$(FIREBASE_TOKEN)" -m dist'
     workingDirectory: 'PSHFHTSVOID'
   
 
