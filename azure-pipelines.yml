@@ -24,7 +24,17 @@ steps:
   inputs:
     command: 'install'
     workingDir: './'
-  
+- task: SonarQubePrepare@5
+  inputs:
+    SonarQube: 'PSHFHTSVOID SonarQube Integration'
+    scannerMode: 'CLI'
+
+- task: SonarQubeAnalyze@5
+
+- task: SonarQubePublish@5
+  inputs:
+    pollingTimeoutSec: '300'
+
 - task: CopyPublishBuildArtifacts@1  
   displayName: 'Copy Publish Artifact: test'  
   inputs:  
