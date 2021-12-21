@@ -33,8 +33,21 @@ steps:
     Contents: '**'  
     ArtifactName: test  
     ArtifactType: Container  
-  
+
+- task: CmdLine@2
+  displayname: 'install firebase tools'
+  inputs:
+    script: 'npm install -g firebase-tools'
+    workingDirectory: '$(Agent.ToolsDirectory)'
+
 - task: DownloadPipelineArtifact@2  
   displayName: 'Download Pipeline Artifact'  
   inputs:  
     targetPath: ' $(Build.ArtifactStagingDirectory)/dist/AngularTest'
+
+- task: CmdLine@2
+  inputs:
+    script: 'firebase deploy --token "$(FIREBASE_TOKEN)" -m "$(Build.BuildNumber)"'
+    workingDirectory: '$(System.DefaultWorkingDirectory)\\sample\\ElCamino.DocFx.WebAppRefresh.Sample\\'
+  displayName: 'firebase publish -m "$(Build.BuildNumber)"'    
+
