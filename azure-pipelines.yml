@@ -39,11 +39,6 @@ steps:
     script: 'npm install -g firebase-tools'
     workingDirectory: '$(Agent.ToolsDirectory)'
 
-- task: CmdLine@2
-  displayName: 'npm run build'
-  inputs:
-    script: 'npm run build'
-
 - task: DownloadPipelineArtifact@2  
   displayName: 'Download Pipeline Artifact'  
   inputs:  
