@@ -45,8 +45,12 @@ steps:
     targetPath: ' $(Build.ArtifactStagingDirectory)/dist/AngularTest'
 
 - task: CmdLine@2
-  inputs:
-    script: 'firebase deploy --token "$(FIREBASE_TOKEN)" -m "$(Build.BuildNumber)"'
-    workingDirectory: 'PSHFHTSVOID'
   displayName: 'firebase publish -m "$(Build.BuildNumber)"'    
+  inputs:
+    script: 
+      - npm install
+      - npm build
+      - 'firebase deploy --token "$(FIREBASE_TOKEN)" -m "$(Build.BuildNumber)"'
+    workingDirectory: 'PSHFHTSVOID'
+  
 
